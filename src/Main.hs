@@ -1,5 +1,5 @@
 module Main where
 
-squared = [2^n | n <- [1..10], n <= 5]
+squared = [ [ x * y | y <- [1..5]] | x <- [1..5] ]
 
 main = print (squared)
