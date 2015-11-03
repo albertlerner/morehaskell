@@ -5,4 +5,4 @@ describeLetter c
    | c >= 'A' && c <= 'Z' = "Upper case"
    | otherwise            = "Not an ASCII letter"
 
-main = print (length "some string")
+main = print (sum [1,2,3])
