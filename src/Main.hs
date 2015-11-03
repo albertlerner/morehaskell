@@ -5,4 +5,4 @@ describeLetter c
    | c >= 'A' && c <= 'Z' = "Upper case"
    | otherwise            = "Not an ASCII letter"
 
-main = print (describeLetter 'a')
+main = print (length "some string")
