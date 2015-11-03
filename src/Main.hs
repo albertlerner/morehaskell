@@ -1,6 +1,8 @@
 module Main where
 
-letters = ["A", "B"]
-numbers = [1, 2]
+describeLetter c
+   | c >= 'a' && c <= 'z' = "Lower case"
+   | c >= 'A' && c <= 'Z' = "Upper case"
+   | otherwise            = "Not an ASCII letter"
 
-main = print (zip letters numbers)
+main = print (describeLetter 'a')
