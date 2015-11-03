@@ -1,5 +1,6 @@
 module Main where
 
-tuple = ("Hello", "World")
+letters = ["A", "B"]
+numbers = [1, 2]
 
-main = print (fst tuple ++ " " ++ snd tuple)
+main = print (zip letters numbers)
